@@ -1,0 +1,1 @@
+# The major difference between an array and a hash is how they are organized.  An Array is able to change order and is accessed by its index, where the hash is organized by key-value pairs and is accessed by is key.
