@@ -1,0 +1,66 @@
+<!Doctype html> <!-- This is the document type definition. This tell the browser that we're using the latest subset of HTML throughout the document.-->
+
+<html>
+  <head>
+    <style type="text/css">
+    <title>Welcome!</title>  <!-- This shows up in the browsers title bar -->
+    <meta charset="utf-8" /> <!-- attributes are written with a name="value".  this is for the browser, not the user. -->
+  </head>
+
+/*use the style element instead of inline styling.  
+*/  
+<style>
+  h1 {
+    color: orange;
+    text-align: center;
+  }
+
+  #intro {
+    font-size: 18px;
+  }
+  </style>
+
+  <body>
+    <h1>Hello internet!</h1>
+    <div> <!-- a container that is a block.  it will push any content tha comes after it below. -->
+      <p id="intro">I am being rendered on the screen!  Welcome to my website!  It is currently a work i progress as I learn <span><strong class="highlight red">HTML</strong> and <strong class="highlight green">CSS</strong></span> <!-- is an inline container and will keep inline with the surrounding content. --> from this excellent book from <strong class="highlight blue">Launch School!</strong></p>
+    </div>
+  </body>
+
+  <style>
+  h1 {
+    color: orange;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+/*id's will override the inherited element
+*/  
+  #intro {  
+    font-size: 18px;
+  }
+
+  .highlight {
+    background-color: #f0f099;
+  }
+
+  strong.highlight {
+    background-color: #f0f099;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .blue {
+    color: blue;
+  }
+  </style>
+</html>
